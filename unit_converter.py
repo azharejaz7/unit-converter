@@ -41,3 +41,22 @@ if st.button("Convert"):
             f'</p>',
             unsafe_allow_html=True
         )
+    
+
+# Add some space before the footer
+st.markdown("<br><br><hr>", unsafe_allow_html=True)
+
+# Footer with an icon
+st.markdown(
+    """
+    <div style="text-align: center;">
+        <p style="font-size:16px; font-weight:bold;">
+            🔹 Unit Converter App Developed by <span style="color:blue;">M. Azhar</span> 
+        </p>
+        <p style="font-size:14px;">
+            📜 GIAIC Reg No: <span style="color:red;">00371581</span>
+        </p>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
